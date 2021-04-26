@@ -46,5 +46,25 @@ Nada mais é que um variável que usa o valor de uma variável como nome de uma 
 * Os array são declaradas como $array-name = array(1,2,3);
 * Os arrays podem ser printados atráves do echo especificando o indice do array: echo $array[0]. Ou através do método print_r(array);
 * Podes-se inserir elementos na última casa do array da seguinte maneira: $array_name[] = 'amarock'.
-* Pode-se tbm especificar aonde quer inserir: array_name[6] = 'amarock';
-
+* Pode-se tbm especificar aonde quer inserir: $array_name[6] = 'amarock';
+* Para percorrer um array podemos usar:
+	'''
+	foreach($vetor_name as $i){
+		echo $i;
+	}
+	'''
+  Que em python seria a mesma coisa de:
+  '''
+  for i in vetor_name:
+  	print(i)
+  '''
+* Pode-se contar quanto um elementos um array tem com o método count($vetor_name);
+* Ademais poder ter três tipos de array, os numerais que são os passados atpe eñtão que possuem index numéricos, os associativos que possuem index não ´numéricos, que se assemelham a dicionários em python:
+  '''
+  $vector = array('nome' => 'Gustavo', 'idade'=> 20, 'altura' => 1.74);
+  '''
+* E por útlimo temos os arrays multidimensionais, que se assemelham a listas de listas em python:
+  '''
+  $times = array('cariocas' => array('vasco', 'flamengo'),
+  				 'paulostas' => array('santos', 'sao paulo'));
+  '''
