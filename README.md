@@ -84,4 +84,33 @@ Nada mais é que um variável que usa o valor de uma variável como nome de uma 
 * explode("caracter", $string) funciona como o spplit do python, pega uma string e a separa em um array conforme encontra um caracter delimitador.
 * implode('caracter', $array) o inplode faz o contrário do explode, pega um array e o transforma numa string, colocando como separados dos elementos um caracter específico.
 
+## Condicionais:
+* A sintaxe das condicionais if e else são da seguinte maneria:
+  '''
+  if(boolean):
+  	//logica;
+  elseif(Boolean):
+  	//logica;
+  else:
+    //logiaca;
+  endif;
+  '''
+* Além disso Tem-se tbm o operador if "?", junto com ":" que é o operador else:
+  '''
+  echo ($media >= 6) ? "Aprovado" : "Reprovado";
+  '''
+* As condicionais *switch/case* tema  seguinte sintaxe:
+  '''
+  switch($opção):
+    case opção1:
+    	//logica;
+    	break;
 
+    case opção2:
+    	//logica;
+    	break;
+
+    default:
+    	//logica;
+  endswitch;
+* 
