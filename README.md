@@ -68,3 +68,20 @@ Nada mais é que um variável que usa o valor de uma variável como nome de uma 
   $times = array('cariocas' => array('vasco', 'flamengo'),
   				 'paulostas' => array('santos', 'sao paulo'));
   '''
+
+## Funções de arryas:
+* is_array($array) para ver se a varavel é array
+* in_array($valor, $array) para ver se há determinado valor no array
+* array_keys($array) retorna um array tendo como valor as chaves do array passado como parâmetro.
+* array_values($array) retorna um novo array com os valores do array passado como parâmetro.
+* array_merge($array, $array) que agrega o valor de dois arryas (concatena).
+* array_pop($array) exclui o elemento que estpa na última posição. Essa função não só exclui bem como retorna o elemento excluído, podendo usar no echo por exemplo.
+* array_shift($array) exclui o elemento que está na primeira posição do array, bem como o retorna.
+* array_unshift($array, $valor) adiciona um ou mais elementos no inicio do array. 
+* array_push($array, $valorI, $valorII...) Adiciona um ou mais elementos no final do array.
+* array_combine($keys, $values) Mescla dois arryas, um representa as chaves do array final, e o outro os valores.
+* array_sum($array) mostra o valor da soma de tds os elemntos de unm array numérico.
+* explode("caracter", $string) funciona como o spplit do python, pega uma string e a separa em um array conforme encontra um caracter delimitador.
+* implode('caracter', $array) o inplode faz o contrário do explode, pega um array e o transforma numa string, colocando como separados dos elementos um caracter específico.
+
+
