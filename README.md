@@ -158,3 +158,33 @@ Nada mais é que um variável que usa o valor de uma variável como nome de uma 
 
 ## Funções para strings:
 * https://www.php.net/manual/pt_BR/ref.strings.php | link para documentação do PHP para a bib String padrão.
+
+## Criando Funções:
+* sintaxe:
+  '''
+  function function_name(parameters){
+  	#Cod;
+  }
+
+  function_name(parameters);
+  '''
+
+## Variáveis superglobais:
+* Variáveis super globais são variáveis definidas pelo PHP, podedno ser usadas em qualquer lugar, não dependendo de escopo.
+* $GLOBALS: Array qe possui todas as variáveis de escopo global do cód, pode-se acessar essas variáveis usando seus nomes como índice do array.
+* $_SERVER[]: É um array que possui informações do servidor onde o script está inserido. Por exemplo $_SERVER["PHP_SELF"] retorna o nome do script. Há diversas outras informações como porta da aplicação, localização do script, entre outros.
+* $_POST[]: É um array que possui todas os dados enviados por um requisição POST.
+* $_GUET[]: Array que armazena tds as variáveis involvida com o método de reuisição GUET do HTTP. Os dados são passados pelo URL.  
+
+
+## Validate filters:
+* Servem para validar campos de formulários, tudo é feito baseado no método filter_input($method_input, name_input, type_input).
+* Nela você fornece o que quer validar, o nome da variável, o método que pode ser POST, GET, etc, e o type que uqer q a variável seja.
+* Caso queria relembrar os tipos de type ou aprender um method de requisição novo: https://www.php.net/manual/en/filter.filters.validate.php.
+
+## Sanitize Filters:
+* Servem para limpar campos, por exemplo ao colocar um campo de texto em um formulário, pode-se colocar nele um código php ou HTML, e por exemplo incluir um button na página, isso pode ser resolvido filtrando caracters especial por exemplo. Outro exemplo é ter um campo numérico, usando métodos de Sanitive filters pode-se limpar qualquer caracter que não seja numérico do campo.
+* Tudo é baseado tabmém no método filter_input().
+* Novamente pelos mesmos motivos: https://www.php.net/manual/en/filter.filters.sanitize.php.
+
+## 
