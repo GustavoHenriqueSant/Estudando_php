@@ -113,4 +113,48 @@ Nada mais é que um variável que usa o valor de uma variável como nome de uma 
     default:
     	//logica;
   endswitch;
-* 
+
+## Operadores aritmeticos:
+* adição: +
+* subtração: -
+* divisão: /
+* Módulo: %
+* Multiplicação: *
+* Exponesiação: **
+* Incremento: ++$variavel = incrementa e retorna o valor após | $variavel++ = retorna a variável e incrementa depois;
+* Decremento: --$variavel e --$variavel;
+* $a += $b;
+* $a /= $b ... ;
+
+## Operadores de comparacao:
+* == verifica se o valor das variáveis são iguais
+* != Verifica se o valor das variáveis não são iguais
+* === Verifica se as variáveis são idênticas.
+* !=== Verifica se as variáveis são idênticas.
+* <> Me parece ambiguo a !=, não entendi esse operador muito bem, quando precisar ou se lembrar antes procurar saber.
+* <
+* >
+* <=
+* >=
+* <=> Esse operador faz um comparaçõa com binada da seguinte sintaxe: numver1 <=> number2. Ele ve qual deles é maior, se o 1 for mair ele da retorna -1, caso forem iguais retorna 0, e caso o 2 for maior retorna 1.
+
+## Operadores lógicos:
+*  && and
+* || or
+* xor ou exclusivo
+* ! negação
+
+## Estruturas de repetição:
+* O while tem a seguinte sintaxe:
+  '''
+  while($contador <= 10):
+  	echo $contador."<br>";
+	$contador++;
+  endwhile;
+  '''
+  **Note meu amiguinnho que em php eles chamas : e end em estruturas como escrita especial, elas podem sersubstituídas por {}**
+* O Do while é a mesma coisa que em C, e ele não possui escrita especial, pe obrigatoriamente usadno {}.
+* O foreach vc já viu.
+
+## Funções para strings:
+* https://www.php.net/manual/pt_BR/ref.strings.php | link para documentação do PHP para a bib String padrão.
