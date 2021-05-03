@@ -187,4 +187,9 @@ Nada mais é que um variável que usa o valor de uma variável como nome de uma 
 * Tudo é baseado tabmém no método filter_input().
 * Novamente pelos mesmos motivos: https://www.php.net/manual/en/filter.filters.sanitize.php.
 
-## 
+## Sessions:
+* pelo que entendi as sessions são como array que podem ser acessados por outras páginas além daquele que ele foi delcarado.
+* Tudo é feito em cima da variável superglobal chamada $_SESSION[], definida ao executar o método session_start(), ao definir uma sessão dando um index para a mesma pode-se atribuir valores como se fosse um array.
+* Uma vez startada esse conteúdo pode ser manipulado por outras sessões. As sessions podem ser usadas para fazer sistemas de carrinhos em lojas ou estruturas de login.
+* Além da session_start() há muitos outros métodos para manipular as sessions como session_unset() para limpar a sessão, ou session_destroy() para destruir a sessão. Em um sistema de login elas podem ser usadas para limpar a atividade do usuário, e após fazer o logoof do usuário.
+
