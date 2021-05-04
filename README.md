@@ -193,3 +193,8 @@ Nada mais é que um variável que usa o valor de uma variável como nome de uma 
 * Uma vez startada esse conteúdo pode ser manipulado por outras sessões. As sessions podem ser usadas para fazer sistemas de carrinhos em lojas ou estruturas de login.
 * Além da session_start() há muitos outros métodos para manipular as sessions como session_unset() para limpar a sessão, ou session_destroy() para destruir a sessão. Em um sistema de login elas podem ser usadas para limpar a atividade do usuário, e após fazer o logoof do usuário.
 
+## orientãdo a objetos:
+* Lembre-se que métodos ou classes abstract são estruturais, ou seja, são usadas como um modelo. Um classe abstract não pode ser instanciada por exemplo, ela foi feita para ser herdada, e nada mais.
+* E lembre-se que tbm métodos e classes finais possui a mesma essência, uma classe ou método final não pode ser extendido.
+
+ 
